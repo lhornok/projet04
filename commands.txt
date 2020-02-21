@@ -8,3 +8,8 @@ exit
 vagrant destroy
 git add bootstrap.sh
 vagrant up
+
+
+# Docker
+sudo docker build . -t lhornok/dockproj04
+sudo docker run --rm -ti lhornok/dockproj04
