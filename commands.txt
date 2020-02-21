@@ -1,1 +1,10 @@
+git add commands.txt
 vagrant init ubuntu/trusty64 --minimal
+git add commands.txt
+git add Vagrantfile
+vagrant up
+vagrant ssh
+exit
+vagrant destroy
+git add bootstrap.sh
+vagrant up
